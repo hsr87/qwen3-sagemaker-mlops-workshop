@@ -1,0 +1,18 @@
+{
+  "training_job_name": "qwen3-0-6b-samples-jupyter-notebook-lora-2025-08-31-01-07-55",
+  "processing_job_name": "qwen3-evaluation-mock-2025-08-31-06-25-50",
+  "evaluation_metrics": {
+    "text_similarity": 0.7448357076505616,
+    "bleu_score": 0.3458520709648644,
+    "avg_prediction_length": 48.438442690503464,
+    "avg_reference_length": 48.1,
+    "perplexity": 18.84605971281605,
+    "num_samples": 15,
+    "evaluation_type": "mock_for_demo",
+    "model_quality_score": 0.78,
+    "timestamp": "2025-08-31T06:25:43.210070"
+  },
+  "model_quality_threshold": 0.7,
+  "metrics_s3_uri": "s3://sagemaker-us-east-1-637423390840/qwen3-0-6-lora-samples/evaluation/qwen3-evaluation-mock-2025-08-31-06-25-50/evaluation_metrics.json",
+  "model_approved": true
+}

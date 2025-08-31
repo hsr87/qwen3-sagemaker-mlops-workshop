@@ -1,0 +1,6 @@
+transformers==4.54.1
+peft>=0.6.0
+accelerate>=0.24.0
+scikit-learn
+numpy
+tqdm

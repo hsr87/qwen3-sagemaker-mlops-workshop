@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.pyc
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# AWS/SageMaker
+.sagemaker/
+sagemaker-logs/
+output/
+model/
+*.tar.gz
+
+# ML/Data
+data/
+datasets/
+*.csv
+*.h5
+*.pkl
+*.pickle
+*.npy
+*.npz
+checkpoints/
+logs/
+tensorboard/
+mlruns/
+
+# Credentials & Secrets
+*.pem
+*.key
+.env.*
+secrets/
+credentials/
+config.ini
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.hypothesis/
+
+# Documentation
+docs/_build/
+site/
+
+# Temporary files
+*.log
+*.tmp
+temp/
+tmp/
+cache/
+
+# Project specific
+endpoint_info.json
+latest_model_arn.txt
+claude.md
