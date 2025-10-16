@@ -100,3 +100,4 @@ cache/
 endpoint_info.json
 latest_model_arn.txt
 claude.md
+ref_code
